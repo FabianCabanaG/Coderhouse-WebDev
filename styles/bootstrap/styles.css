@@ -1,0 +1,25 @@
+#nav {
+    background-color: black;
+    
+}
+
+#nav h1, #nav li a {
+    color:white;
+
+}
+
+#content-container,#content-container-row, #content-container__flex {
+    height:80vh;
+
+
+}
+
+#footer_div {
+    background-color: black;
+
+}
+
+#footer_div p {
+    color: white;
+
+}

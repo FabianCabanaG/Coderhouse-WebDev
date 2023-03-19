@@ -349,5 +349,12 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-#editor
+#editor 
 .vscode
+
+
+
+#Temporal ignore
+package-lock.json
+package.json
+scss
