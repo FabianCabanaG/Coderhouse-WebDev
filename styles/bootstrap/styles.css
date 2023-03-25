@@ -23,3 +23,21 @@
     color: white;
 
 }
+
+.button_mod {
+    height: 30px;
+    width: 200px;
+    border-radius: 11px;
+    border: none; 
+    
+  }
+  
+  .button_mod a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .green-button {
+    background-color: #25cf7d;
+  }
+  
