@@ -357,4 +357,3 @@ MigrationBackup/
 #Temporal ignore
 package-lock.json
 package.json
-scss

@@ -2,51 +2,17 @@ body {
   margin: 0;
   font-family: sans-serif; }
 
-/* nav {
-  background-color: black;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-
-}
-
-nav h1 {
-  color: white;
-  margin: 20px 20px;
-
- }
-
-nav ul {
-  display: flex;
-  justify-content: space-evenly; 
-  overflow: hidden;
-
-}
-
-nav ul li {
-  margin: 0 20px; }
-
-nav ul li, nav a {
-  text-decoration: none;
-  list-style: none;
-  color: white;
-  white-space: nowrap; } */
-
 .main-container {
-  height: 100vh  ;
-  margin: 0 25vw 30px 25vw ;
-  display: flex ;
-  flex-direction: column ;
-  justify-content: space-around ;
-  align-items: center ;
-  text-align: center ; 
-}
-
-.main-container h3,
-.form-container h3 {
-  margin-bottom: 0; }
+  height: 100vh;
+  margin: 0 25vw 30px 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+  .main-container h3 {
+    margin-bottom: 0;
+    margin-top: 20px; }
 
 .form-container {
   height: 100vh;
@@ -56,25 +22,26 @@ nav ul li, nav a {
   /* justify-content: space-around; */
   align-items: center;
   text-align: center; }
+  .form-container h3 {
+    margin-bottom: 0;
+    margin-top: 20px; }
 
 #form1 {
   margin-top: 100px;
   border: 1px solid #000;
   border-radius: 11px;
   padding: 50px 0; }
-
-#form1 label {
-  display: block;
-  text-align: left;
-  padding: 0 0 10px 10px; }
-
-#form1 input {
-  margin: 0 0 40px 0;
-  width: 80%;
-  border: none;
-  background-color: #D9D9D9;
-  /* text-align: left; */
-  /* padding: 0 0 10px 0; */ }
+  #form1 label {
+    display: block;
+    text-align: left;
+    padding: 0 0 10px 10px; }
+  #form1 input {
+    margin: 0 0 40px 0;
+    width: 80%;
+    border: none;
+    background-color: #D9D9D9;
+    /* text-align: left; */
+    /* padding: 0 0 10px 0; */ }
 
 footer {
   color: white;
@@ -86,84 +53,58 @@ footer {
   align-items: center;
   text-align: center; }
 
+h3 {
+  padding-top: 20px; }
+
 .button {
   height: 30px;
   width: 200px;
   border-radius: 11px;
-  border: none; 
-  
-}
-
-.button a{
-  text-decoration: none;
-  color: white;
-}
+  border: none; }
+  .button a {
+    text-decoration: none;
+    color: white; }
 
 .green-button {
-  background-color: #25cf7d;
-}
+  background-color: #25cf7d; }
 
+.discord-button {
+  background-color: #7289DA; }
 
-.discord-button{
-  background-color: #7289DA;
-}
+.instagram-button {
+  background-image: linear-gradient(#FEDA75, #FA7E1E, #D62976, #962FBF, #4F5BD5); }
 
-.instagram-button{
-  background-image: linear-gradient( #FEDA75,#FA7E1E,#D62976,#962FBF,#4F5BD5);
-}
+.twitter-button {
+  background-color: #00ACEE; }
 
-.twitter-button{
-  background-color: #00ACEE;
-}
-
-.tiktok-button{
-  background-image: linear-gradient( #00F2EA,#000000,#FF0050);
-}
-
+.tiktok-button {
+  background-image: linear-gradient(#00F2EA, #000000, #FF0050); }
 
 #nav {
-  background-color: black;
-  
-}
+  background-color: black; }
+  #nav a {
+    color: white; }
+  #nav h1 {
+    color: white; }
 
-#nav h1, #nav li a {
-  color:white;
-
-}
-
-#content-container,#content-container-row, #content-container__flex {
-  height:80vh;
-
-
-}
+#content-container,
+#content-container-row,
+#content-container__flex {
+  height: 80vh; }
 
 #footer_div {
-  background-color: black;
-
-}
-
-#footer_div p {
-  color: white;
-
-}
+  background-color: black; }
+  #footer_div p {
+    color: white; }
 
 .button_mod {
   height: 30px;
   width: 200px;
   border-radius: 11px;
-  border: none; 
-  
-}
-
-.button_mod a{
-  text-decoration: none;
-  color: white;
-}
-
-.green-button {
-  background-color: #25cf7d;
-}
-
+  border: none; }
+  .button_mod a {
+    text-decoration: none;
+    color: white; }
 
 .galeria {
   background-color: #00ACEE;
@@ -171,16 +112,11 @@ footer {
   width: 400px;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-}
-
-.galeria div {
-  border: 1px solid black; 
-  overflow: hidden;
-}
-
-.galeria div img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
+  grid-template-columns: 1fr 1fr; }
+  .galeria div {
+    border: 1px solid black;
+    overflow: hidden; }
+    .galeria div img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
