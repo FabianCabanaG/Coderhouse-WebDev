@@ -98,7 +98,8 @@ h3 {
   height: 30px;
   width: 200px;
   border-radius: 11px;
-  border: none; }
+  border: none;
+  color: white; }
   .button_mod a {
     text-decoration: none;
     color: white; }
