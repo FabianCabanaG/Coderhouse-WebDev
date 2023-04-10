@@ -143,6 +143,9 @@ h3 {
     text-decoration: none;
     list-style-type: none; }
 
+#fullLogo {
+  height: 88px; }
+
 @media (max-width: 768px) {
   .navbar-nav {
     display: none; }
@@ -157,3 +160,4 @@ h3 {
     justify-content: center;
     position: absolute;
     right: 20px; } }
+/* Finished version  */
